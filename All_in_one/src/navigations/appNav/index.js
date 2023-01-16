@@ -8,6 +8,7 @@ import Profile from '../../screens/Profile';
 const AppNav = () => {
   const Stack = createNativeStackNavigator();
   const Tab = createBottomTabNavigator();
+
 // tabnavigation code here 
   function MyTabs() {
     return (

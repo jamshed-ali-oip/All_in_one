@@ -5,7 +5,7 @@ import AppNav from './appNav';
 
 
 const MainNav = () => {
-    const [Side,setSide]=useState(true)
+    const [Side,setSide]=useState(false)
   return (
     <NavigationContainer>
        {Side==true?<AppNav/>:<AuthNav/>}
