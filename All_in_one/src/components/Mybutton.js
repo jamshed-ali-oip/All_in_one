@@ -4,6 +4,7 @@ const { height, width } = Dimensions.get('window');
 const Mybutton = ({props}) => {
   return (
 <TouchableOpacity
+onPress={()=>{props.onPress}}
 style={{
     backgroundColor:props?.backgroundColor,
     height:props?.height,
@@ -39,3 +40,5 @@ const styles = StyleSheet.create({})
 // justifyContent
 // borderRadius,
 // fontSize
+
+// onPress
