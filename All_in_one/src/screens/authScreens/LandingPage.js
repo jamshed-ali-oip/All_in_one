@@ -1,12 +1,10 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import Myinput from '../../components/Myinput'
+import Mybutton from '../../components/Mybutton'
 const LandingPage = () => {
   return (
     <View>
-      <Myinput
-  labelenable={true}
-      />
+   <Mybutton/>
     </View>
   )
 }
